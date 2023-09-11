@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Lucía's Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <link href="img/favicon.png" rel="icon" type="image/type">
+
+        <meta name="author" content="Lucía Merino">
+
+        <meta name="description" content="Personal portfolio">
+
+        <link href="css\style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap" rel="stylesheet">        
+    </head>
+
+    <body>
+        <header>
+            <nav id="menu">
+                <div id="title">
+                    <a href="#home_page">
+                        Lucía's Portfolio
+                    </a>
+                </div>
+                <i class="fa-solid fa-bars" style="color: #ffffff;" onclick="menu()"></i>
+                <ul>
+                    <li>
+                        <a href="#about_me" onclick="closeMenu()">
+                                    ABOUT ME
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="#my_projects" onclick="closeMenu()">
+                                    MY PROJECTS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact_me" onclick="closeMenu()">
+                                    CONTACT ME
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home_page">
+                <div class="cover">
+                    <h1>Lucía Merino Manso</h1>
+                    <h2>Graphic Designer</h2>
+                </div>
+            </section>
+
+            <section id="about_me">
+                <div class="about_me_left">
+                    <h1>About me</h1>
+                    <br>
+                    <p>I am Lucía Merino and I'm 21 years old. Currently, I am studying my third year at UDIT University in Spain. In terms of qualifications, I have completed courses in Audiovisual communication, vector design, photo editing and web design. As a result, I have good working knowledge of Illustrator, Photoshop, Premiere, Figma and Visual Studio.  In addition, I recently obtained a First Advanced certificate from Cambridge certifying that both my english skills are up to par. Furthermore, for the past year, I have been collaborating as a graphic designer with two companies, called "Hewego" and “Rentyou”, editing videos, creating interactive elements, and designing a logo. I am a detail-oriented, self-confident and adaptable person, qualities that I consider key for any potential candidate.
+                    </p>
+                    <br>
+                    <p>Having worked on the projects mentioned above, my interest in design has been nurtured and has also helped me develop strong time management abilities and problem-solving skills. I am also used to working with other people, which has helped me hone my communication skills, and to accept and learn from criticism. I am eager to learn about the field by collaborating with experienced and disciplined design professionals, and in this way, improve as a graphic designer. </p>
+                </div>
+                <div class="about_me_right">
+                    <figure>
+                        <img src="img/aboutme.jpeg" alt="me">
+                    </figure>
+                </div>
+            </section>
+
+            <section id="my_projects">
+                <div class="my_projects_title">
+                <h1>My projects</h1>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <figure>
+                            <img src="img/myprojects1.jpg">
+                            <figcaption>
+                                Creation of a special edition for the 150th anniversary of its publication
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>Around the world in 80 days</p>    
+                            <button id="abrirModal1">+</button>
+                        </div>
+                        <figure>
+                            <img src="img/myprojects2.jpg">
+                            <figcaption>
+                                Design of a special edition, logo and packaging for the 50th anniversary of the creation of this animated film
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>Savage planet</p>    
+                            <button id="abrirModal2">+</button>
+                        </div>
+                        <figure>
+                            <img src="img/myprojects3.jpg">
+                            <figcaption>
+                                Logo redesigns, covers and home page design for Interview
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>Interview</p>    
+                            <button id="abrirModal3">+</button>
+                        </div>
+                        <figure>
+                            <img src="img/myprojects4.jpg">
+                            <figcaption>
+                                Typographic cover design for three short stories by Jorge Luis Borges
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>Book covers</p>    
+                            <button id="abrirModal4">+</button>
+                        </div>
+                        <figure>
+                            <img src="img/myprojects5.jpg">
+                            <figcaption>
+                                Creation of illustrations for the covers of three children's stories
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>Story covers</p>    
+                            <button id="abrirModal5">+</button>
+                        </div>
+                        <figure>
+                            <img src="img/myprojects6.jpg">
+                            <figcaption>
+                                Creation of illustrations for three articles in Jot Down magazine
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>Jot Down</p>
+                            <button id="abrirModal6">+</button>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <figure>
+                            <img src="img/myprojects7.jpg">
+                            <figcaption>
+                                Character and comic design based on a scene from Monsters Inc.
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>Comic</p>    
+                            <button id="abrirModal7">+</button>
+                        </div>
+                        <figure>
+                            <img src="img/myprojects8.jpg">
+                            <figcaption>
+                                Design of several calendar months based on a work by Matthieu Bourel and popular sayings
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>Calendar x Matthieu Bourel</p>    
+                            <button id="abrirModal8">+</button>
+                        </div>
+                        <figure>
+                            <img src="img/myprojects9.jpg">
+                            <figcaption>
+                                Redesign of six song covers for vinyls
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>Vinyls</p>    
+                            <button id="abrirModal9">+</button>
+                        </div>
+                        <figure>
+                            <img src="img/myprojects10.jpg">
+                            <figcaption>
+                                Creation of posters in different formats for three Starbucks campaigns
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>Starbucks</p>    
+                            <button id="abrirModal10">+</button>
+                        </div>
+                        <figure>
+                            <img src="img/myprojects11.jpg">
+                            <figcaption>
+                                Design of posters and triptychs for the Picasso x Chanel exhibition at Thyssen 
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>Picasso x Chanel</p>    
+                            <button id="abrirModal11">+</button>
+                        </div>
+                        <figure>
+                            <img src="img/myprojects12.jpg">
+                            <figcaption>
+                                Redesign of the logo and visual identity of the Sumo restaurant
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>Sumo</p>    
+                            <button id="abrirModal12">+</button>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <figure>
+                            <img src="img/myprojects13.jpg">
+                            <figcaption>
+                                Creation of a young brand for wines
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>Enredo</p>    
+                            <button id="abrirModal13">+</button>
+                        </div>
+                        <figure>
+                            <img src="img/myprojects14.jpg">
+                            <figcaption>
+                                Creation of a logo and visual identity for a real estate company
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>Rentyou</p>    
+                            <button id="abrirModal14">+</button>
+                        </div>
+                        <figure>
+                            <img src="img/myprojects15.jpg">
+                            <figcaption>
+                                Responsive design of an exhibition website
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>Perdona, estoy hablando</p>    
+                            <button id="abrirModal15">+</button>
+                        </div>
+                        <figure>
+                            <img src="img/myprojects16.jpg">
+                            <figcaption>
+                                Photographic project based on the feeling of absence
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>Absence</p>    
+                            <button id="abrirModal16">+</button>
+                        </div>
+                        <figure>
+                            <img src="img/myprojects17.jpg">
+                            <figcaption>
+                                Creation of three collages fusing digital and analog elements
+                            </figcaption>
+                        </figure>
+                        <div>
+                            <p>Collages</p>    
+                            <button id="abrirModal17">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MODALES -->
+                <div id="modal1" class="modal">
+                    <h2>Around the world in 80 days</h2>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects1_1.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects1_2.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects1_3.jpg">
+                        </figure>
+                    </div>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects1_4.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects1_5.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects1_6.jpg">
+                        </figure>
+                    </div>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects1_7.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects1_8.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects1_9.jpg">
+                        </figure>
+                    </div>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects1_10.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects1_11.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects1_12.jpg">
+                        </figure>
+                    </div>
+                    <div class="button">
+                        <p>Creation of a special edition of Around the World in 80 Days, by Jules Verne, for its 150th anniversary. To do this, a visual line has been created and a chapter of the book has been laid out, the index, cover and back cover using InDesign. The layout, design, illustrations and introduction are my own creation. Elements have been used to reinforce the meaning that is wanted to be transmitted. The gold adds elegance and exclusivity, the circles reinforce the idea of going around the world, the black and white illustrations give a feeling of antiquity and the means of transportation reinforce the theme of travel.</p>
+                        <br>
+                        <button class="close1">Accept</button>
+                    </div>
+                </div>
+                <div id="modal2" class="modal">
+                    <h2>Savage planet</h2>
+                    <div class="modal-content">
+                        <figure>
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects2_1.jpg">
+                        </figure>
+                        <figure>
+                        </figure>
+                    </div>
+                    <div class="button">
+                        <p>Design of a magazine commemorating the 50th anniversary of the publication of the animated film Savage planet. As a group we create the layout, illustrations, texts and design using InDesign. We also design the packaging and the logo.  We wanted to reinforce the psychedelic and fictional aesthetic of the film with the illustrations.  In addition, our main intention was to innovate with the layout.</p>
+                        <br>
+                        <button class="close2">Accept</button>
+                    </div>
+                </div>
+                <div id="modal3" class="modal">
+                    <h2>Interview</h2>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects3_1.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects3_2.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects3_3.jpg">
+                        </figure>
+                    </div>
+                    <div class="button">
+                        <p>Redesign of the interview magazine logo, in its calligraphic version, and in the typographic version.  With each of them, two covers were laid out and two home pages of their website were designed.</p>
+                        <br>
+                        <button class="close3">Accept</button>
+                    </div>
+                </div>
+                <div id="modal4" class="modal">
+                    <h2>Book covers</h2>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects4_1.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects4_2.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects4_3.jpg">
+                        </figure>
+                    </div>
+                    <div class="button">
+                        <p>Creation of three covers of three stories by Jorge Luis Borges.  In this project we had to play only with typography to provide meaning to the story.</p>
+                        <br>
+                        <button class="close4">Accept</button>
+                    </div>
+                </div>
+                <div id="modal5" class="modal">
+                    <h2>Story covers</h2>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects5_1.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects5_2.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects5_3.jpg">
+                        </figure>
+                    </div>
+                    <div class="button">
+                        <p>Creation of three illustrations of three children's stories. In this project only two inks could be used for each of the covers. The first is The Little Red Riding Hood, the second The Brave Little Tailor, and the last The Three Little Pigs. They all had to follow a visual line, so I decided to use elements from nature, since it was something that the three of them had in common, and the color black, so that the other color would highlight the main elements.</p>
+                        <br>
+                        <button class="close5">Accept</button>
+                    </div>
+                </div>
+                <div id="modal6" class="modal">
+                    <h2>Jot Down</h2>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects6_1.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects6_2.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects6_3.jpg">
+                        </figure>
+                    </div>
+                    <div class="button">
+                        <p>Creation of three illustrations for three different articles in Jot Down magazine. They follow the adult and intelligent line of the magazine.  Images with combinations of saturated images with painted elements on a flat background so that the elements stand out.</p>
+                        <br>
+                        <button class="close6">Accept</button>
+                    </div>
+                </div>
+                <div id="modal7" class="modal">
+                    <h2>Comic</h2>
+                    <div class="modal-content2">
+                        <figure>
+                            <img src="img/myprojects7_1.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects7_2.jpg">
+                        </figure>
+                    </div>
+                    <div class="button">
+                        <p>Design of the aesthetics, characters and creation of four pages of a comic based on a scene from Monsters Inc.</p>
+                        <br>
+                        <button class="close7">Accept</button>
+                    </div>
+                </div>
+                <div id="modal8" class="modal">
+                    <h2>Calendar x Matthieu Bourel</h2>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects8_2.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects8_1.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects8_3.jpg">
+                        </figure>
+                    </div>
+                    <div class="button">
+                        <p>Creation of a few months of a calendar where we take as reference a work by Matthieu Bourel and a series of flower sayings. By fusing our reinterpretation of the work with the flowers and colors that reminded us of each month, we achieved a very interesting and striking aesthetic.</p>
+                        <br>
+                        <button class="close8">Accept</button>
+                    </div>
+                </div>
+                <div id="modal9" class="modal">
+                    <h2>Vynils</h2>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects9_1.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects9_2.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects9_3.jpg">
+                        </figure>
+                    </div>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects9_4.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects9_5.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects9_6.jpg">
+                        </figure>
+                    </div>
+                    <div class="button">
+                        <p>Reinterpretation of the cover of 6 songs. Using Photoshop, different finishes and aesthetics were achieved.</p>
+                        <br>
+                        <button class="close9">Accept</button>
+                    </div>
+                </div>
+                <div id="modal10" class="modal">
+                    <h2>Starbucks</h2>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects10_1.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects10_2.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects10_3.jpg">
+                        </figure>
+                    </div>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects10_4.png">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects10_5.png">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects10_6.png">
+                        </figure>
+                    </div>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects10_7.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects10_8.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects10_9.jpg">
+                        </figure>
+                    </div>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects10_10.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects10_11.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects10_12.jpg">
+                        </figure>
+                    </div>
+                    <div class="button">
+                        <p>Creation of three illustrations, with their variant formats, for three Starbucks advertising campaigns, Valentine's Day, Christmas and summer.  We had to incorporate a drink and several characters into each one. In each one I introduced very characteristic elements of each event and enhance it with the most characteristic colors. They all follow a fanciful line with objects and people flying everywhere.  In this project it was very important to be inclusive and casual.</p>
+                        <br>
+                        <button class="close10">Accept</button>
+                    </div>
+                </div>
+                <div id="modal11" class="modal">
+                    <h2>Picasso x Chanel</h2>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects11_1.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects11_2.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects11_3.jpg">
+                        </figure>
+                    </div>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects11_4.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects11_5.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects11_6.jpg">
+                        </figure>
+                    </div>
+                    <div class="button">
+                        <p>Creation of advertising posters and explanatory triptych for the Picasso x Chanel exhibition at Thyssen. To carry it out, I was inspired by some of the most representative works of each of the stages of Picasso's work that could be seen in the exhibition, and I fused them with the emblematic label of the Chanel No. 5 cologne.</p>
+                        <br>
+                        <button class="close11">Accept</button>
+                    </div>
+                </div>
+                <div id="modal12" class="modal">
+                    <h2>Sumo</h2>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects12_1.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects12_2.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects12_3.jpg">
+                        </figure>
+                    </div>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects12_4.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects12_5.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects12_6.jpg">
+                        </figure>
+                    </div>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects12_7.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects12_8.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects12_9.jpg">
+                        </figure>
+                    </div>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects12_10.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects12_11.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects12_12.jpg">
+                        </figure>
+                    </div>
+                    <div class="button">
+                        <p>Redesign of the logo and visual identity of the Sumo line of restaurants. I created a more updated logo for the current and young audience, making it stand out among its competitors. I adapted the logo to different formats and basic and merchandising elements.</p>
+                        <br>
+                        <button class="close12">Accept</button>
+                    </div>
+                </div>
+                <div id="modal13" class="modal">
+                    <h2>Enredo</h2>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects13_1.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects13_2.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects13_3.jpg">
+                        </figure>
+                    </div>
+                    <div class="button">
+                        <p>Creation of a wine brand for a young audience that is not used to consuming this drink. I decided to use this name and it is aesthetically pleasing since youth is a stage in which we see everything as chaos, but it is one of the best years of our lives. I also decided that the labels of the different types of wines would form a continuity.</p>
+                        <br>
+                        <button class="close13">Accept</button>
+                    </div>
+                </div>
+                <div id="modal14" class="modal">
+                    <h2>Rentyou</h2>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects14_1.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects14_2.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects14_3.jpg">
+                        </figure>
+                    </div>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects14_4.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects14_5.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects14_6.jpg">
+                        </figure>
+                    </div>
+                    <div class="button">
+                        <p>Creation of the visual line and logo of a real estate company. The client wanted the brand to convey professionalism and sincerity, that's why I chose a blue, but at the same time one that was friendly, hence the shapes of the logo. To make the logo very versatile, I created different formats, such as the image and isotype, for easy use.</p>
+                        <br>
+                        <button class="close14">Accept</button>
+                    </div>
+                </div>
+                <div id="modal15" class="modal">
+                    <h2>Perdona, estoy hablando</h2>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects15_1.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects15_2.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects15_3.jpg">
+                        </figure>
+                    </div>
+                    <div class="button">
+                        <p>Responsive website design for the exhibition Sorry, I'm talking.  In this group work we program and design this website. We wanted it to be an intuitive page so that any user could use it, so we introduced elements such as a drop-down menu, an image gallery with works from the exhibition, a section to buy tickets, a section with important information, and a footer. As for the design, we used the colors and elements of the exhibition so that it followed the visual line.</p>
+                        <br>
+                        <button class="close15">Accept</button>
+                    </div>
+                </div>
+                <div id="modal16" class="modal">
+                    <h2>Absence</h2>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects16_1.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects16_2.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects16_3.jpg">
+                        </figure>
+                    </div>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects16_4.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects16_5.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects16_6.jpg">
+                        </figure>
+                    </div>
+                    <div class="button">
+                        <p>The intention with this project is to try to convey through different photos a sense of absence. This can happen for many reasons, for a loss of a loved one, an abandonment, the lack of something or someone... The fact is that everyone at some point in our lives we realize what it is and with this work I would like people to feel it and make their own that feeling that has been mine and that has inspired me to make these photographs.</p>
+                        <br>
+                        <button class="close16">Accept</button>
+                    </div>
+                </div>
+                <div id="modal17" class="modal">
+                    <h2>Collages</h2>
+                    <div class="modal-content">
+                        <figure>
+                            <img src="img/myprojects17_1.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects17_2.jpg">
+                        </figure>
+                        <figure>
+                            <img src="img/myprojects17_3.jpg">
+                        </figure>
+                    </div>
+                    <div class="button">
+                        <p>Creation of a series of three collages that integrate both digital and analog elements.</p>
+                        <br>
+                        <button class="close17">Accept</button>
+                    </div>
+                </div>
+                <script src="js/script.js"></script>
+
+            </section>
+
+            <section id="contact_me">
+                <h1>Contact me</h1>
+                <div>
+                    <form action="https://formspree.io/f/xrgwknoy" method="post">
+                        <label for="name"></label>
+                        <input type="text" id="user_name_form" placeholder="Type your name" name="name">
+                        <br>
+                        <label for="email"></label>
+                        <input type="text" id="user_name" placeholder="Type your email" name="email">
+                        <br>
+                        <label for="suggestion"></label>
+                        <textarea id="comments" placeholder="Type your suggestion" name="suggestion"></textarea>
+                        <br>
+                        <input type="submit" value="Submit!">
+                    </form>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/bylulume/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                    </div>
+                    <p>
+                        merinomansoluciaadobe@gmail.com
+                    </p>
+                    <p>
+                        608307735
+                    </p>
+                </div>
+                
+            </section>
+        </main>
+
+        <footer>
+            <h1>
+                Lucía Merino Manso
+            </h1>
+        </footer>
+
+        <div class="flecha">
+            <a href="#">
+                <i class="fa-solid fa-up-long fa-lg" style="color: #9e9e9e;"></i>
+            </a>
+        </div>
+    </body>
+</html>
